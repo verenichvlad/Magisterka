@@ -1,0 +1,31 @@
+.title-bar {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2.5rem 0;
+}
+
+.title-bar__title-wrapper {
+    display: flex;
+}
+
+.title-bar__title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 0px;
+}
+
+.title-bar__subtitle-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 30rem;
+    padding: 10px 0;
+}
+
+.title-bar__subtitle {
+    border-color: #aaa;
+    border-width: 0 0 0 2px;
+    border-style: solid;
+    padding-left: 10px;
+}

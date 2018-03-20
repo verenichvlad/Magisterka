@@ -1,0 +1,50 @@
+.clickableDrop {
+  display: table-cell;
+  width: 1%;
+  max-width: 50%;
+  min-height: 300px;
+  max-height: 300px;
+  height: 300px;
+  user-select: none;
+  color: #4e546d;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  background: linear-gradient(45deg, #080c15 0%, #1c222e 100%);
+}
+
+.clickableDrop_file-over {
+  cursor: copy;
+  background-color: #121722;
+  background-image: url(/img/dnd.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80px 80px;
+  * {
+    display: none;
+  }
+}
+
+.clickableDrop__button {
+  cursor: pointer;
+  transition: color 256ms ease-in-out;
+  width: 85%;
+  margin: 0px auto;
+  color: #4e546d;
+
+  &:hover{
+    color: #bbb;
+  }
+} 
+
+.clickableDrop__icon {
+  font-size: 6rem !important;
+}
+
+.clickableDrop__header {
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  line-height: 2rem;
+  font-weight: 300;
+  margin: 10px 0;
+}
