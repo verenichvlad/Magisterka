@@ -1,0 +1,33 @@
+CSS fault
+
+The cascade and inheratence
+Very loose
+Highly dependent on source order
+Not very expressive
+Lots of gotchas
+Specificity - large selectotrs
+
+Our fault
+
+Lack of documentation
+Lack of structure, quality assurance (No paradigms telling where to look for certain things)
+Mixture of abilities (Writing code in different standard)
+Lack of knowledge about CSS / project (cant find variable, rewriting things which are already done)
+Different styles, preferences of coding developers
+Not aware of what exists already
+Adding new styles to the end of stylesheets
+
+Every piece of css has a potential to pass some information on or accept information from
+another bit of css. It is giant global dependency mess (tree).
+
+Ways of ordering:
+Mirror the webpage - bad because is not how css works
+Thematic chuncs - typography, forms, buttons, etc
+
+Line througs in inspector are BAD. Its idea of Undoing CSS - writing more css in order to undo other css
+Its rtiting more css to do less styling and is very inefficient
+
+Specificity can completely ruin everything. Low Specificity = more elements.
+To solve specificity issue, should write css in a specificity order
+ITCSS tries to organise files by their specificity
+

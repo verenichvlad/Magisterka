@@ -23,7 +23,7 @@ class UploadsViewer extends React.Component {
       <div className="box margin-top">
 
         <div className="box-header with-border">
-          <h3 className="box-title">Управление загрузками</h3>
+          <h3 className="box-title">Uploads Viewer</h3>
         </div>
 
         <div className="box-body">
@@ -46,7 +46,7 @@ class UploadsViewer extends React.Component {
                         </span>
                       </a>
                       <span className="product-description">
-                        Нажите чтобы просмотреть
+                        Click to watch
                       </span>
                     </div>
                   </li>
@@ -56,7 +56,7 @@ class UploadsViewer extends React.Component {
           </ul>
         </div>
         <div className="box-footer text-center">
-          <a href="#" className="uppercase">Как правильно снять материл</a>
+          <a href="#" className="uppercase">How to prepare media</a>
         </div>
       </div>
     );

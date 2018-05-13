@@ -22,6 +22,14 @@ class Evaluations extends React.Component {
     });
   };
 
+  handleClick = (phone) => {
+    Push.create('Station phone', {
+      body: phone,
+      icon: '/img/success.png',
+      timeout: 6000,
+    });
+  };
+
   render() {
     const valuations = Valuations.find({ orderId: this.state.selectedOrder });
 
@@ -104,6 +112,41 @@ class Evaluations extends React.Component {
                             </p>
                             {!stationProfile.isVerified && <span className="label bg-red moderation-label">Not verified</span>}
                             {stationProfile.isVerified && <span className="label bg-green moderation-label">Verified</span>}
+                          </div>
+                          <div className="col-md-3">
+                            {valuation.evaluatedParts.map(part => (
+                              <div key={part.name}>
+                                <p>
+                                  <label>Part name:</label>
+                                  <span> {part.name}</span>
+                                </p>
+
+                                <p>
+                                  <label>Repair cost:</label>
+                                  <span> {part.price}</span>
+                                </p>
+
+                                <p>
+                                  <label>Term (days):</label>
+                                  <span> {part.term}</span>
+                                </p>
+                              </div>
+                            ))}
+                          </div>
+
+                          <div className="col-md-3">
+                            <p>
+                              <label>Total cost:</label>
+                              <span> {valuation.totalPrice}</span>
+                            </p>
+
+                            <p>
+                              <label>Total term (days):</label>
+                              <span> {valuation.totalTermDays}</span>
+                            </p>
+                          </div>
+                          <div className="col-md-3">
+                            <button onClick={() => { this.handleClick(stationProfile.stationPhone); }} className="btn">Show phone</button>
                           </div>
                         </div>
                       </div>

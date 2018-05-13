@@ -1,0 +1,4 @@
+﻿Meteor to framework najwyższego poziomu zawierający cały podzbiór innych frameworków oraz narzędzi celem którego jest umożliwić
+tworzenie aplikacji webowych przy użyciu jednego języka. Meteor ma swój CLI. Meteor pozwala całkiem skonfigurować projekt przy pomocy jednej komendy.
+Meteor sam dba za uruchomienie serwera aplikacji, kompilację plików i nawiat odruza ma ustawiony live reload. Meteor zawiera swój package manager aczkolwiek też wspiera
+NPM. Instalując meteor już instalują się takie narzędzia jak git, node js oraz inne.

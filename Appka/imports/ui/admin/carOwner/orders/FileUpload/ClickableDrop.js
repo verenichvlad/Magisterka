@@ -142,7 +142,7 @@ class ClickableDrop extends React.Component {
         {!this.state.currentlyUploading &&
         <label className="clickableDrop__button" id="fakeUpload" htmlFor="userfile">
           <i className="fa fa-cloud-upload clickableDrop__icon" />
-          <h2 className="clickableDrop__header">Загрузить файл</h2>
+          <h2 className="clickableDrop__header">Upload file</h2>
         </label>}
 
         {this.state.currentlyUploading &&

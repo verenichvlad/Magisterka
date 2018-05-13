@@ -19,10 +19,10 @@ class OrderForm extends Component {
   state = {
     parts: this.props.order ? this.props.order.parts : '',
     partsOptions: [
-      { label: 'Задний бампер', value: 'Задний бампер' },
-      { label: 'Заднее крыло', value: 'Заднее крыло' },
-      { label: 'Боковая дверь', value: 'Боковая дверь' },
-      { label: 'Весь кузов', value: 'Весь кузов' },
+      { label: 'Rear bumper', value: 'Rear bumper' },
+      { label: 'Rear wing', value: 'Rear wing' },
+      { label: 'perimeter door', value: 'perimeter door' },
+      { label: 'Whole body', value: 'Whole body' },
     ],
     location: this.props.order ? this.props.order.location : '',
     maxDistance: this.props.order ? this.props.order.maxDistance : 30,
