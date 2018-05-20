@@ -1,0 +1,1 @@
+File structure https://guide.meteor.com/structure.html

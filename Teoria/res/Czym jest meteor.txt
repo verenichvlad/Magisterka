@@ -1,4 +1,31 @@
-﻿Meteor to framework najwyższego poziomu zawierający cały podzbiór innych frameworków oraz narzędzi celem którego jest umożliwić
-tworzenie aplikacji webowych przy użyciu jednego języka. Meteor ma swój CLI. Meteor pozwala całkiem skonfigurować projekt przy pomocy jednej komendy.
-Meteor sam dba za uruchomienie serwera aplikacji, kompilację plików i nawiat odruza ma ustawiony live reload. Meteor zawiera swój package manager aczkolwiek też wspiera
-NPM. Instalując meteor już instalują się takie narzędzia jak git, node js oraz inne.
+﻿Meteor - to platforma najwyższego poziomu, zawierająca cały podzbiór 
+innych frameworków oraz narzędzi celem którego jest umożliwić
+tworzenie 'reaktywnych' aplikacji webowych oraz mobilnych, 
+przy użyciu jednego języka - JavaScript.
+
+Meteor CLI (ang. Command Line Interface) - narzędzie-aplikacja konsolowa 
+która pozwala obsługiwać tworzone aplikacje Meteor. Jest jedną z 
+najważniejszych części frameworku.
+
+Jednym z najważniejszych aspektów nowoczesnych platform jest zestaw
+gotowych bibliotek (API), które są dostarczane razem z nimi. Im
+większy jest wybór, tym bardziej elastycznie można decydować o rozwiązaniu
+problemu. Dzisiaj już rzadko zdarza się pisać bibliotekę samemu. Bardziej 
+preferowane jest użycie gotowego, przetestowanego rozwiązania, dostarczanego
+przez społeczeństwo.
+
+Meteor API - jest łączeniem pakietów własnych z pakietami dostarczanymi
+poprzez społeczeństwo JavaScript oraz Node.js.
+
+Meteor posiada swoje źródło pakietów, dostosowane pod platformę pod 
+nazwą Atmosphere.js (atmospherejs.com). 
+
+Dużą zaletą Meteor jest także to, że dana jest nieograniczona możliwość 
+korzystania z globalnego schowku NPM, który jest najbardziej popularnym 
+w dzisiejszych realiach.
+
+Meteor build tool - zaawansowane narzędzie budowy aplikacji Meteor pod 
+przeglądarkę oraz urządzenie mobilne (Cordova). Bardzo ułatwia setup 
+projektu, zawiera swój określony protokół ładowania plików oraz wsparcie 
+najnowszych wersji języka JavaScript (ES2015).
+

@@ -1,21 +1,8 @@
 ﻿Rozdział 1: Zapoznanie z Meteorem
-1.1 Czym jest Meteor
-1.2 Jaki problem Meteor rozwiązuje
-1.3 Z czego składa się Meteor
-1.4 Zalety Meteor.js
-1.5 Przykłady aplikacji stworzonych przy pomocy meteoru
+1.1 Czym jest Meteorem
 
-Rozdział 2: Zapoznanie z Poszczególnymi częściami Meteor.js
-2.1 Meteor Tools
-2.1.1 CLI
-2.1.2 Meteor Npm
-2.1.3 Atmosphere
+Rozdział 2.2 
 
-Rozdział 2.2 Client-side development
-2.2.1 Ecmascript 6/7 // imports, classes, arrow-funcs
-2.2.2 Rendering engine (React)
-Rozdizał 2.3 Server-side development
-2.3.1 Node.js
 
 
 Rozdział 3: Tworzenie aplikacji
