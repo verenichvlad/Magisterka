@@ -1,6 +1,6 @@
 ﻿Meteor - to platforma najwyższego poziomu, zawierająca cały podzbiór 
-innych frameworków oraz narzędzi celem którego jest umożliwić
-tworzenie 'reaktywnych' aplikacji webowych oraz mobilnych, 
+innych frameworków oraz narzędzi celem których jest umożliwienie
+tworzenia 'reaktywnych' aplikacji pod platformę web oraz mobile, 
 przy użyciu jednego języka - JavaScript.
 
 Meteor CLI (ang. Command Line Interface) - narzędzie-aplikacja konsolowa 
@@ -10,8 +10,8 @@ najważniejszych części frameworku.
 Jednym z najważniejszych aspektów nowoczesnych platform jest zestaw
 gotowych bibliotek (API), które są dostarczane razem z nimi. Im
 większy jest wybór, tym bardziej elastycznie można decydować o rozwiązaniu
-problemu. Dzisiaj już rzadko zdarza się pisać bibliotekę samemu. Bardziej 
-preferowane jest użycie gotowego, przetestowanego rozwiązania, dostarczanego
+problemu. Dzisiaj już rzadko zdarza się pisać bibliotekę samodzielnie. Bardziej 
+preferowanym jest użycie gotowego, przetestowanego rozwiązania, dostarczanego
 przez społeczeństwo.
 
 Meteor API - jest łączeniem pakietów własnych z pakietami dostarczanymi

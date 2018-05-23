@@ -1,24 +1,23 @@
 Podczas działania aplikacji kod źródłowy może być odpalony jak 
-na kliencie tak i na serwerze. Także ważną jest kolejność ładowania 
-plików projektu. Kolejność oraz środowisko odpalania kodu może być 
-kontrolowane poprzez miejsce gdzie umieszczamy pliki / kod.
+po stronie klienta tak i na serwerze. Także ważną jest kolejność ładowania 
+plików projektu. Kolejność ładowania modułów oraz środowisko odpalania kodu mogą być 
+kontrolowane poprzez miejsce gdzie umieszczamy plik / blok kodu.
 
 Kolejność ładowania:
 1. Najpierw ładowane są pliki HTML.
 2. Pliki o nazwie 'main.*' ładowane są na końcu.
 3. Dalej ładowane są pliki z folderu '/lib'.
-4. Później pliki są ładowane pliki o największym zagnieżdżeniu 
-według nazwy alfabetycznie.
+4. Później pliki są ładowane pliki o największym zagnieżdżeniu, 
+według nazwy, alfabetycznie.
 
 Foldery specjalne:
-imports - pliki muszą być załadowane manualnie.
+imports - pliki muszą być załadowane manualnie dyrektywą 'import'.
 node_modules - pliki muszą być załadowane manualnie, zawiera zależności NPM
 client - pliki są ładowane wyłącznie po stronie klienta.
 server - pliki są ładowane wyłącznie po stronie serwera Node.js i odpalane 
 w jednym wątku.
 public - pliki serwowane klientowi. Zwykle zawiera zdjęcia, czcionki i t.d.
-private - pliki mogą być dostępne tylko po stronie serwera za pomocą 
-Assets API.
+private - pliki mogą być dostępne tylko po stronie serwera za pomocą Assets API.
 tests - pliki nie są ładowane nigdzie.
 
 Meteor także ignoruje foldery:
@@ -30,9 +29,11 @@ programs
 
 Pliki które nie są wrzucone do folderu specjalnego są odpalane jak po 
 stronie klienta tak i po stronie serwera. Jest możliwość kontrolować to 
-dodatkowo imperatywnie za pomocą zmiennych
-środowiskowych: Meteor.isClient oraz Meteor.isServer.
+dodatkowo imperatywnie za pomocą zmiennych środowiskowych: Meteor.isClient oraz Meteor.isServer.
 
 Najbardziej popularnym rozwiązaniem ułożenia struktury folderów 
 projektu jest wrzucenie większości kodu do folderu 'imports' oraz 
 ładowanie głównych plików do folderu 'client' oraz 'server'.
+
+Zaletą takiego rozwiązania jest całkowita swoboda podczas tworzenia struktury 
+folderów projektu.
