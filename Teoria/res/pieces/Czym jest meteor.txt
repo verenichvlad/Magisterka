@@ -14,7 +14,7 @@ problemu. Dzisiaj już rzadko zdarza się pisać bibliotekę samodzielnie. Bardz
 preferowanym jest użycie gotowego, przetestowanego rozwiązania, dostarczanego
 przez społeczeństwo.
 
-Meteor API - jest łączeniem pakietów własnych z pakietami dostarczanymi
+Meteor API - jest połączeniem pakietów własnych z pakietami dostarczanymi
 poprzez społeczeństwo JavaScript oraz Node.js.
 
 Meteor posiada swoje źródło pakietów, dostosowane pod platformę pod 

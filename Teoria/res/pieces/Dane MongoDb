@@ -1,0 +1,8 @@
+Ważną częścią web aplikacji jest zestaw narzędź który zezwala manipulować zbiorem danych.
+Meteor obsługuje warstwy danych aplikacji przy pomocy MongoDB. MongoDB - to baza danych no-sql, 
+gdzie dane są przechowywane w formacie JSON-podobnych dokumentów.
+
+Warstwa danych Meteor aplikacji składa się z poszczególnych kolekcji (tabeli w relacyjnych bazach danych).
+Kolekcja - zbiór dancyh jednego typu. Zawiera poszczególne dokumenty.
+
+Meteor rozszerza możliwości zwykłek MongoDB kolekcji, nadająć możliwość doświadczyć reaktywność poprzez użytkownika.
